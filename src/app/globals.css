@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: rgba(25, 24, 26, 1);
+}
+
+.app-sidebar-resizer:hover,
+.app-sidebar-resizer:active {
+  width: 6px;
+}
